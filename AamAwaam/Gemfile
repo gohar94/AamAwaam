@@ -38,6 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem "cucumber-rails-training-wheels", :group => :test
+
 group :development, :test do
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
@@ -45,4 +47,5 @@ group :development, :test do
   gem 'ZenTest'
   gem 'capybara'
   gem 'simplecov'
+  gem 'launchy'
 end
