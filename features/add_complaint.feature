@@ -9,6 +9,3 @@ Feature: Add Complaints
 		And I fill in "Location" with "Defence Phase 2"
 		And I press "Complain"
 		Then I should see "Successfully added complain"
-
-	Scenario: Add complaints through a map
-		
