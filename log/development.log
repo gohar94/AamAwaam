@@ -6886,3 +6886,649 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 14:18:33
 
 
 Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 14:18:33 -0700
+
+
+Started GET "/complaints/index" for 127.0.0.1 at 2015-04-29 14:44:42 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by ComplaintsController#index as HTML
+  [1m[35mComplaint Load (0.1ms)[0m  SELECT `complaints`.* FROM `complaints`
+  Rendered complaints/index.html.erb within layouts/application (191.2ms)
+Completed 200 OK in 559ms (Views: 372.2ms | ActiveRecord: 171.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:43 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:44 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:44 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 14:44:52 -0700
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (292.8ms)
+Completed 200 OK in 607ms (Views: 605.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 14:44:53 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:02:33 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 414ms (Views: 359.7ms | ActiveRecord: 30.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:02:34 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 177ms (Views: 176.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:19 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 191ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:03:50 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 321ms (Views: 281.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:04:08 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:04:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:04:09 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:05:18 -0700
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 412ms (Views: 411.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:19 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:05:31 -0700
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (330.9ms)
+Completed 200 OK in 2896ms (Views: 2888.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:05:34 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 257ms (Views: 256.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:32 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:06:53 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 311ms (Views: 288.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:06:54 -0700
+
+
+Started POST "/complaints" for 127.0.0.1 at 2015-04-29 15:07:50 -0700
+Processing by ComplaintsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7o2QbBABK2BJ2pDDoF9KUZjfN2xPPxkTJvLy0ywxJP4=", "complaint"=>{"authorID"=>"0", "description"=>"asdasd", "latitude"=>"22", "longitude"=>"11"}, "commit"=>"Create"}
+  [1m[35m (19.9ms)[0m  BEGIN
+  [1m[36mSQL (370.2ms)[0m  [1mINSERT INTO `complaints` (`created_at`, `description`, `latitude`, `longitude`, `updated_at`) VALUES ('2015-04-29 22:07:50', 'asdasd', 22.0, 11.0, '2015-04-29 22:07:50')[0m
+  [1m[35m (102.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/complaints/index
+Completed 302 Found in 502ms (ActiveRecord: 492.2ms)
+
+
+Started GET "/complaints/index" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+Processing by ComplaintsController#index as HTML
+  [1m[36mComplaint Load (10.7ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  Rendered complaints/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 179ms (Views: 165.5ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:07:51 -0700
+
+
+Started GET "/complaints/index" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+Processing by ComplaintsController#index as HTML
+  [1m[35mComplaint Load (1.9ms)[0m  SELECT `complaints`.* FROM `complaints`
+  Rendered complaints/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 177ms (Views: 174.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:24 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:25 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:25 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:25 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 195ms (Views: 193.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:28 -0700
+
+
+Started GET "/complaints/new" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+Processing by ComplaintsController#new as HTML
+  Rendered complaints/new.html.erb within layouts/application (51.4ms)
+Completed 200 OK in 223ms (Views: 220.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/complaints.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/styles_new.css?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/complaints.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/scripts_new.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 15:08:51 -0700
