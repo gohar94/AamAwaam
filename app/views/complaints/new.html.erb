@@ -1,0 +1,11 @@
+<%= form_for(:complaint, :url => {:action => 'create'}) do |f| %>
+	<%= f.label(:authorID) %>
+    <%= f.text_field(:authorID) %>
+    <%= f.label(:description) %>
+    <%= f.text_field(:description, :size => 140) %>
+    <%= f.label(:latitude) %>
+    <%= f.text_field(:latitude) %>
+    <%= f.label(:longitude) %>
+    <%= f.text_field(:longitude) %>
+	<%= submit_tag("Create") %>
+<% end %>

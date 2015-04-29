@@ -11,6 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150429133054) do
+
+  create_table "complaints", force: true do |t|
+    t.string   "description", limit: 140,                 null: false
+    t.boolean  "spam",                    default: false
+    t.integer  "authorID",                default: 0
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.float    "latitude",    limit: 24
+    t.float    "longitude",   limit: 24
+  end
 
 end
