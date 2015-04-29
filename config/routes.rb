@@ -6,8 +6,10 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   resource :complaints
+  resource :users
 
   get 'complaints/index' => 'complaints#index'
+  get 'users/index' => 'users#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
