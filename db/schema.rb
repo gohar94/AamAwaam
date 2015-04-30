@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150429223128) do
+ActiveRecord::Schema.define(version: 20150430102046) do
 
   create_table "complaints", force: true do |t|
     t.string   "description", limit: 140,                 null: false
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20150429223128) do
     t.datetime "updated_at"
     t.float    "latitude",    limit: 24
     t.float    "longitude",   limit: 24
+    t.string   "type"
   end
 
   create_table "users", force: true do |t|

@@ -4,6 +4,10 @@ class ComplaintsController < ApplicationController
 
 	def index
 		@complaints = Complaint.all
+		respond_to do |format|
+			format.json { render :json => @complaints }
+			format.html
+		end
 	end
 
 	def new
@@ -13,7 +17,7 @@ class ComplaintsController < ApplicationController
 	def create
 		@complaint = Complaint.new(complaint_params)
 		if @complaint.save
-			puts "Done"
+			flash[:notice] = "Successfully added complain"
 			redirect_to :action => 'index'
 		else
 			render('new')
@@ -23,6 +27,6 @@ class ComplaintsController < ApplicationController
 	private
 
 	def complaint_params
-		params.require(:complaint).permit(:description, :authorID, :latitude, :longitude)
+		params.require(:complaint).permit(:description, :authorID, :latitude, :longitude, :type)
 	end
 end

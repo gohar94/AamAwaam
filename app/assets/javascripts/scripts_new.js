@@ -1,89 +1,53 @@
 $(document).ready(function(){
-google.maps.event.addDomListener(window, 'load', initialize);
+	google.maps.event.addDomListener(window, 'load', initialize);
 
-function initialize() {
-  var latlng = new google.maps.LatLng(31.4712025,74.4120089);
+	function initialize() {
+	  var latlng = new google.maps.LatLng(31.4712025,74.4120089);
 
-  var mapOptions = {
-    center: latlng,
-    scrollWheel: false,
-    zoom: 13
-  };
-  
-  var marker = new google.maps.Marker({
-    position: latlng,
-    url: '/',
-    animation: google.maps.Animation.DROP
-  });
-  
-  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-  marker.setMap(map);
-};
-});
+	  var mapOptions = {
+	    center: latlng,
+	    scrollWheel: false,
+	    zoom: 13
+	  };
+	  
+	  var marker = new google.maps.Marker({
+	    position: latlng,
+	    url: '/',
+	    animation: google.maps.Animation.DROP
+	  });
+	  
+	  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+	  marker.setMap(map);
 
-jQuery(function ($) {
-  var performance = [12, 3, 4, 2, 12, 3, 4, 17, 22, 34, 54, 67],
-      visits = [3, 9, 12, 14, 22, 32, 45, 12, 67, 45, 55, 7],
-      budget = [23, 19, 11, 134, 242, 352, 435, 22, 637, 445, 555, 57];
+		$.ajax({
+		    
+		    url: 'complaints/index.json',
+		    dataType: 'json',
+		    
+		    success: function(data){
+		      	jQuery.each(data , function() {
+					var contentString = this.description;
+					console.log(contentString);
+					var infowindow = new google.maps.InfoWindow({ content: contentString });
+					var latLng = new google.maps.LatLng(this.latitude, this.longitude);
+					var marker = new google.maps.Marker({
+						position: latLng,
+						map: map,
+						animation: google.maps.Animation.DROP,
+						title: this.description
+					});
 
-  $("#performance1").shieldChart({
-      primaryHeader: {
-          text: "Server Load"
-      },
-      exportOptions: {
-          image: false,
-          print: false
-      },
-      tooltipSettings: {
-          enabled: false
-      },
-      dataSeries: [{
-          seriesType: "bar",
-          collectionAlias: "Server Load",
-          data: performance
-      }]
-  });
+			        google.maps.event.addListener(marker, 'mouseover', function() {
+			          infowindow.open(map,marker);
+			        });
 
-  $("#performance2").shieldChart({
-      primaryHeader: {
-          text: "Errors"
-      },
-      exportOptions: {
-          image: false,
-          print: false
-      },
-      tooltipSettings: {
-          enabled: false
-      },
-      dataSeries: [{
-          seriesType: "area",
-          collectionAlias: "Errors",
-          data: visits
-      }]
-  });
-
-  $("#performance3").shieldChart({
-      primaryHeader: {
-          text: "New Users"
-      },
-      exportOptions: {
-          image: false,
-          print: false
-      },
-      tooltipSettings: {
-          enabled: false
-      },
-      dataSeries: [{
-          seriesType: "spline",
-          collectionAlias: "New Users",
-          data: budget
-      }]
-  });
-});
-
-$(function() {
-    $('.required-icon').tooltip({
-        placement: 'left',
-        title: 'Required field'
-        });
+			        google.maps.event.addListener(marker, 'mouseout', function() {
+			          infowindow.close();
+			        });
+			    });
+		    }, error: function(e) { 
+		    	console.log(e);
+		    } 
+		});
+	}
 });
