@@ -69,6 +69,7 @@
 		    </div>
 		</div>
 
+<<<<<<< HEAD
 		<div id="map-canvas"></div>
 			<div class="container-fluid" id="main">
 				<div class="row">
@@ -102,3 +103,33 @@
 			</div>
 		</div>
 	</body>
+=======
+
+<div class="container">
+    <div class="row">
+    	<% @complaints.each do |c| %>
+	        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <div class="box">
+	                <div class="box-icon">
+	                	<% if c.type == 'electricity' %>
+	                    	<span class="fa fa-4x fa-bolt"></span>
+	                    <% elsif c.type == 'water' %>
+	                    	<span class="fa fa-4x fa-html5"></span>
+	                    <% elsif c.type == 'sewerage' %>
+	                    	<span class="fa fa-4x fa-html5"></span>
+	                    <% end %>
+	                </div>
+	                <div class="info">
+	                    <h4 class="text-center"><%= c.authorID %></h4>
+	                    <h4 class="text-center"><%= c.latitude %></h4>
+	                    <h4 class="text-center"><%= c.longitude %></h4>
+	                    <h4 class="text-center"><%= c.type %></h4>
+	                    <p><%= c.description %></p>
+	                    <a href="" class="btn">Link</a>
+	                </div>
+	            </div>
+	        </div>
+        <% end %>
+	</div>
+</div>
+>>>>>>> 9bec48ed072f8e81901f8c346d2c9a108bb437f6
