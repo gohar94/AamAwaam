@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 		$.ajax({
 		    
-		    url: 'complaints/index.json',
+		    url: 'http://localhost:3000/complaints/index.json',
 		    dataType: 'json',
 		    
 		    success: function(data){
