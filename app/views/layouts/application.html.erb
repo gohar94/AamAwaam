@@ -2,22 +2,9 @@
 <html>
 <head>
   <title>AamAwaam</title>
-  
-  	<%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track' => true %>
-	<%= stylesheet_link_tag('styles_new', :media => 'all') %>
-  	<%= stylesheet_link_tag('bootstrap', :media => 'all') %>
-  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  	<%= javascript_include_tag('bootstrap') %>
-	<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
-	<%= javascript_include_tag('scripts_new') %>
-  
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<% if !flash[:notice].blank? %>
-	    <%= flash[:notice] %>
-	  </div>
-	<% end %>
 	<%= yield %>
 </body>
 </html>

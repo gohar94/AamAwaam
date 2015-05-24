@@ -1,7 +1,5 @@
 class ComplaintsController < ApplicationController
 
-	layout "application"
-
 	def index
 		@complaints = Complaint.all
 		respond_to do |format|
