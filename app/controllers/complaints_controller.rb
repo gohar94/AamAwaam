@@ -24,6 +24,12 @@ class ComplaintsController < ApplicationController
 		end
 	end
 
+	def showStatus
+		@complaint = Complaint.find(params[:id])
+		flash[:notice] = "The complaint " + @complaint.description + " is " +  @complaint.status
+		redirect_to :action => 'index'
+	end
+
 	private
 
 	def complaint_params

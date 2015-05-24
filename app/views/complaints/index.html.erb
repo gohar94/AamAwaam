@@ -91,7 +91,7 @@
 				                    <h4 class="text-center"><%= c.longitude %></h4>
 				                    <h4 class="text-center"><%= c.type %></h4>
 				                    <p><%= c.description %></p>
-				                    <a href="" class="btn">Link</a>
+				                    <%= link_to "Check Status", { :action => "showStatus", :id => c.id } %>
 				                </div>
 				            </div>
 				        </div>

@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
   get 'complaints/index' => 'complaints#index'
   get 'users/index' => 'users#index'
+  get 'complaints/showStatus' => 'complaints#showStatus'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
