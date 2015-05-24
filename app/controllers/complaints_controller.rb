@@ -27,6 +27,6 @@ class ComplaintsController < ApplicationController
 	private
 
 	def complaint_params
-		params.require(:complaint).permit(:description, :authorID, :latitude, :longitude, :type)
+		params.require(:complaint).permit(:description, :authorID, :latitude, :longitude)
 	end
 end

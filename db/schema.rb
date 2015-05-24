@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150430102046) do
+ActiveRecord::Schema.define(version: 20150430110102) do
 
   create_table "complaints", force: true do |t|
     t.string   "description", limit: 140,                 null: false
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20150430102046) do
     t.string   "password",             limit: 20,                      null: false
     t.string   "city"
     t.integer  "number_of_complaints",            default: 0
-    t.string   "type",                            default: "customer", null: false
+    t.string   "user_type",                       default: "customer", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
